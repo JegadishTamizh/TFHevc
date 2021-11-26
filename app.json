@@ -4,28 +4,28 @@
     "logo": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
     "keywords": ["Telegram","python", "Video","Compressor","Encoder"],
     "repository": "https://github.com/1Danish-00/CompressorBot",
-    "success_url": "https://t.me/BotzHub",
+    "success_url": "https://t.me/TamilFusion1",
     "stack": "container",
     "env": {
         "APP_ID": {
             "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "3264079"
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "41d88a8a4319ad19f451a8ca47d2e37f"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
-            "value": ""
+            "value": "2106259370:AAF7rujDCH3wyyWoQLNLhA4yJasFbyI3jgE"
         },
         "LOG_CHANNEL": {
             "description": "Create a private group/channel. Add @missrose_bot and your bot + make admin. Do /id. Paste that here",
-             "value": ""
+             "value": "-1419013215"
         },
         "OWNER_ID": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": "",
+            "value": "926195542","1827344599","779878908"
             "required": false
         }
     }
