@@ -25,7 +25,7 @@
         },
         "OWNER_ID": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": "926195542","1827344599","779878908"
+            "value": "926195542",
             "required": false
         }
     }
