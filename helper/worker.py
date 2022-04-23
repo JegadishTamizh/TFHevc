@@ -79,7 +79,7 @@ async def encc(e):
                 [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
             ],
         )
-        cmd = f'ffmpeg -i "{dl}" -c:v libx265 -vtag hvc1 -c:a copy -metadata title="Tamil Fusion" -metadata:s:v title="Tamil Fusion" -metadata:s:a title="Tamil Fusion" -metadata:s:s title="Tamil Fusion" "{out}" -y'
+        cmd = f'ffmpeg -i "{dl}" -vf crop=1280:536 -c:v libx265 -crf 22 -preset slow -c:a copy -metadata title="Tamil Fusion - t.me/TamilFusion1" -metadata:s:v title="Tamil Fusion - t.me/TamilFusion1" -metadata:s:a title= -metadata:s:s title="Tamil Fusion" "{out}" -y'
         process = await asyncio.create_subprocess_shell(
             cmd, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE
         )
